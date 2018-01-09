@@ -47,3 +47,13 @@ def sum_array(array)
 #for a bonus, look up the `.inject` method to get this test passing
   array.inject(0){|sum,x| sum + x }
 end
+
+def add_s(array)
+# Add an "s" to each word in the array except for the 2nd element in the array'
+  array.each_with_index do |add_s, index|
+                             if index != 1
+                                lunch_item << "!"
+                              end
+                            end
+
+end
