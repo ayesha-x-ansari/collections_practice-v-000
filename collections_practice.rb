@@ -52,7 +52,7 @@ def add_s(array)
 # Add an "s" to each word in the array except for the 2nd element in the array'
   array.each_with_index do |add_s, index|
                              if index != 1
-                                lunch_item << "!"
+                                add_s << "!"
                               end
                             end
 
