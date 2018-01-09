@@ -45,4 +45,5 @@ def find_a(array)
 end
 def sum_array(array)
 #for a bonus, look up the `.inject` method to get this test passing
+  array.inject(0){|sum,x| sum + x }
 end
